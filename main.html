@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Keylogger</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="klscript.js"></script>
+
+</head>
+
+<body>
+
+<!--need wrappers or containers for each element  -->
+<!-- each element will be a child of it so it should be easy to style -->
+<div class="overWrap">
+    <h3>Key Pressed</h3>
+    <div class = "mainWrapper" id = "keyPressDisplay">
+        <p id = "keyPressDisplay">Press any key</p>
+    </div>
+</div>
+
+<div class = "mainWrapper" id = "spacer">
+    
+</div>
+
+<div class="overWrap">
+    <h3>event.key</h3>
+    <h5>This is literally the key you just pressed.</h5>
+
+
+    <div class = "mainWrapper" id = "keyPressEventKey">
+        <p>Waiting for a key to be pressed...</p>
+    </div>
+</div>
+
+<div class="overWrap">
+    <h3>event.code</h3>
+    <h5>This is a shorthand way for your computer to identify what key was pressed.</h5>
+    <div class = "mainWrapper" id = "keyPressEventCode">
+        <p>Waiting for a key to be pressed...</p>
+    </div>
+</div>
+
+<div class="overWrap">
+    <h3>event.which</h3>
+    <h5>This is the hexadecimal equivalent of the key pressed.</h5>
+
+    <div class = "mainWrapper" id = "keyPressEventWhich">
+        <p>Waiting for a key to be pressed...</p>
+    </div>
+</div>
+
+</body>
+
+</html>
