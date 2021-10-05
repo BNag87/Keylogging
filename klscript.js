@@ -18,20 +18,24 @@ document.addEventListener('keydown', (event) =>{
     //update the keyPressed field, that displays the literal key pressed;
     keyPressed.innerHTML = ("["+keyDown+"] was pressed!");
     keyPressed.style.fontSize = "22px";
-    keyPressed.style.color = "rgb(170,150,20)";
+    keyPressed.style.padding = "5px";
+    keyPressed.style.color = "rgb(200,200,100)";
 
     //update the keyEventkey field, that displays the literal key pressed;
     keyEventKey.innerHTML = (keyDown);
     keyEventKey.style.fontSize = "20px";
-    keyEventKey.style.color = "rgb(170,150,20)";
+    keyEventKey.style.padding = "5px";
+    keyEventKey.style.color = "rgb(200,170,30)";
 
     //update the keyEventCode field, that displays the literal key pressed;
     keyEventCode.innerHTML = (keyCode);
     keyEventCode.style.fontSize = "20px";
-    keyEventCode.style.color = "rgb(170,150,20)";
+    keyEventCode.style.padding = "5px";
+    keyEventCode.style.color = "rgb(200,170,30)";
 
     //update the keyEventWhich field, that displays the literal key pressed;
     keyEventWhich.innerHTML = (keyWhich);
     keyEventWhich.style.fontSize = "20px";
-    keyEventWhich.style.color = "rgb(170,150,20)";
+    keyEventWhich.style.padding = "5px";
+    keyEventWhich.style.color = "rgb(200,170,30)";
 });
